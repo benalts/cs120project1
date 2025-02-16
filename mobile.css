@@ -1,0 +1,8 @@
+@media (max-width: 800px) {
+    #image-holder img {
+        width: 70%;
+    }
+    #concert {
+        display: none;
+    }
+}

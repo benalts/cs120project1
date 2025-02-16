@@ -1,28 +1,21 @@
-#nav-bar {
-    display: flex;
-    padding: 10px;
-}
-#nav-links {
-    padding-top: 50px;
-    padding-left: 200px;
-}
-#nav-links a {
-    padding: 70px;
-}
 hr.rounded {
     border-top: 1px solid #eeeeee;
     border-radius: 5px;
-  }
+}
 h1 {
     margin: auto;
-    margin-top: 90px;
-    width: 50%;
+    margin-top: 5%;
+    width: 70%;
     padding: 10px;
     text-align: center;
 }
+a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
 body {
     font-family: poppins;
-    
+    padding-bottom: 60px;
 }
 .container-box {
     background-color: rgb(232, 232, 232);
@@ -81,4 +74,29 @@ body {
     margin: auto;
     font-size: larger;
     font-weight: 600;
+}
+.book-now {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00bfff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tour-dates {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #00bfff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
